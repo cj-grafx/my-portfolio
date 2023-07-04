@@ -11,12 +11,6 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <div id="loader">
-            <div id="box"></div>
-            <div id="hill"></div>
-        </div>
-    </div>
     <header id="header">
         <div id="name">
             <p class="name">Praise</p>
@@ -63,10 +57,16 @@
         <p id="contacts">Contact</p>
         <p class="email">praise37471408@gmail.com</p>
     </div> -->
+    <div class="wrapper">
+        <div id="loader">
+            <div id="box"></div>
+            <div id="hill"></div>
+        </div>
+    </div>
     <script>
         $(window).on("load", function () {
-            $(".loader-wrapper").fadeOut("slow");
-        });
+            $(".wrapper").fadeOut("slow")
+        })
     </script>
 </body>
 
