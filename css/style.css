@@ -107,7 +107,7 @@ body {
     background-color: #ded1c1;
     border-radius: 50%;
     margin-top: 20px;
-    margin-left: 675px;
+    margin-left: 690px;
     padding: 10px;
     animation-name: opacity2;
     animation-delay: 750ms;
@@ -127,8 +127,8 @@ body {
 }
 
 .man {
-    width: 190px;
-    height: 522px;
+    /* width: 190px;
+    height: 522px; */
     animation-name: opacity;
     animation-delay: 750ms;
     animation-fill-mode: forwards;
@@ -292,8 +292,8 @@ body {
 }
 
 .medal {
-    width: 128px;
-    height: 128px;
+    width: 100px;
+    height: 100px;
     display: flex;
     margin-top: -40px;
     margin-left: 350px;
@@ -427,9 +427,197 @@ body {
 
 .foot {
     width: 565px;
-    height: 260px;
-    border-top-right-radius: 100px;
+    height: 170px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
     background-color: #262626;
     margin-left: 110px;
+    margin-top: 30px;
+    animation-name: opacity11;
+    animation-delay: 1.8s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+    padding-top: 10px;
+    padding-left: 64px;
+}
+
+@keyframes opacity11 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.know {
+    width: 100px;
+    height: 40px;
+    border-radius: 2px;
+    border: 2px solid #ffd100;
+    color: #262626;
+    font-family: tomy;
+    font-size: 12px;
+    background-color: #ffd100;
+    animation-name: opacity12;
+    animation-delay: 3.3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+    align-items: center;
+    padding-left: 6px;
+    margin-top: -10px;
+}
+
+@keyframes opacity12 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.stats {
+    color: white;
+    font-size: 24px;
+    font-family: tomy;
+    animation-name: opacity13;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+@keyframes opacity13 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.website {
+    display: flex;
+    margin-top: -111px;
+    margin-left: 200px;
+    font-family: tomy;
+    font-size: 14px;
+    color: white;
+    animation-name: opacity13;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.n1 {
+    display: flex;
+    margin-top: -32px;
+    margin-left: 492px;
+    font-family: tomy;
+    font-size: 14px;
+    color: white;
+    animation-name: opacity13;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.line1 {
+    border-top: 1px solid #383836;
+    width: 303px;
+    margin-left: 200px;
     margin-top: 20px;
+    animation-name: opacity13;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.graphics {
+    display: flex;
+    margin-top: -3px;
+    margin-left: 199px;
+    font-family: tomy;
+    font-size: 14px;
+    color: white;
+    animation-name: opacity13;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.n2 {
+    display: flex;
+    margin-top: -32px;
+    margin-left: 485px;
+    font-family: tomy;
+    font-size: 14px;
+    color: white;
+    animation-name: opacity13;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.line2 {
+    border-top: 1px solid #383836;
+    width: 303px;
+    margin-left: 200px;
+    margin-top: 20px;
+    animation-name: opacity13;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.logo {
+    display: flex;
+    margin-top: -3px;
+    margin-left: 199px;
+    font-family: tomy;
+    font-size: 14px;
+    color: white;
+    animation-name: opacity13;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.n3 {
+    display: flex;
+    margin-top: -32px;
+    margin-left: 487px;
+    font-family: tomy;
+    font-size: 14px;
+    color: white;
+    animation-name: opacity13;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.line3 {
+    border-top: 1px solid #383836;
+    width: 303px;
+    margin-left: 200px;
+    margin-top: 20px;
+    animation-name: opacity13;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
 }
