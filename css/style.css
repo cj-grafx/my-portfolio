@@ -206,8 +206,8 @@ body {
 
 .design {
     display: flex;
-    margin-top: 100px;
-    margin-left: 109px;
+    margin-top: 10px;
+    margin-left: 110px;
     font-family: tomy;
     font-size: 14px;
     color: black;
@@ -227,4 +227,162 @@ body {
     100% {
         opacity: 1;
     }
+}
+
+.hire {
+    width: 100px;
+    height: 40px;
+    border-radius: 2px;
+    border: 2px solid #fe481c;
+    color: white;
+    font-family: tomy;
+    font-size: 15px;
+    display: flex;
+    background-color: #fe481c;
+    animation-name: opacity6;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+    margin-left: 110px;
+    margin-top: 30px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+@keyframes opacity6 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.project {
+    width: 100px;
+    height: 40px;
+    border-radius: 2px;
+    border: 2px solid white;
+    color: black;
+    font-family: tomy;
+    font-size: 15px;
+    display: flex;
+    background-color: white;
+    animation-name: opacity7;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+    margin-left: 218px;
+    margin-top: -40px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+@keyframes opacity7 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.medal {
+    width: 128px;
+    height: 128px;
+    display: flex;
+    margin-top: -40px;
+    margin-left: 450px;
+    animation-name: opacity8;
+    animation-delay: 1.4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+@keyframes opacity8 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.clients {
+    animation-name: opacity9;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+@keyframes opacity9 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.num1 {
+    font-size: 24px;
+    color: black;
+    font-family: tomy;
+    display: flex;
+    margin-left: 111px;
+    margin-top: -50px;
+}
+
+#clients {
+    font-size: 12px;
+    color: black;
+    font-family: tomy;
+    display: flex;
+    margin-left: 111px;
+    margin-top: -25px;
+}
+
+.done {
+    animation-name: opacity10;
+    animation-delay: 1.6s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+    margin-top: 60px;
+}
+
+@keyframes opacity10 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.num2 {
+    font-size: 24px;
+    color: black;
+    font-family: tomy;
+    display: flex;
+    margin-left: 111px;
+    margin-top: -50px;
+}
+
+#done {
+    font-size: 12px;
+    color: black;
+    font-family: tomy;
+    display: flex;
+    margin-left: 111px;
+    margin-top: -25px;
 }
