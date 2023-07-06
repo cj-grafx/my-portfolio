@@ -7,6 +7,11 @@ body {
     src: url(../font/tomy.otf)
 }
 
+@font-face {
+    font-family: tomy-thin;
+    src: url(../font/tomy_thin.otf)
+}
+
 
 #header {
     animation-name: opacity1;
@@ -134,6 +139,7 @@ body {
     animation-fill-mode: forwards;
     opacity: 0;
     animation-duration: 1s;
+    margin-left: 50px;
 }
 
 @keyframes opacity {
@@ -144,6 +150,54 @@ body {
     100% {
         opacity: 1;
     }
+}
+
+.apps {
+    font-size: 17px;
+    color: black;
+    font-family: tomy-thin;
+    /* display: flex; */
+    margin-top: -570px;
+    margin-left: 240px;
+}
+
+.circle1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 400px;
+    margin-top: 30px;
+
+}
+
+.circle2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 300px;
+
+}
+
+.photo {
+    width: 35px;
+    height: 35px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.circle3 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+.icons {
+    margin-top: 40px;
 }
 
 .hi {
