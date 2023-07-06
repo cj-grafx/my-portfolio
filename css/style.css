@@ -46,7 +46,7 @@ body {
 .dot {
     font-family: tomy;
     font-size: 50px;
-    color: #ff4f21;
+    color: #ffd100;
     margin-top: 9px;
 }
 
@@ -157,7 +157,7 @@ body {
     color: black;
     font-family: tomy-thin;
     /* display: flex; */
-    margin-top: -570px;
+    margin-top: -580px;
     margin-left: 240px;
 }
 
@@ -203,7 +203,7 @@ body {
 .hi {
     display: flex;
     margin-top: -500px;
-    margin-left: 109px;
+    margin-left: 103px;
     font-family: tomy;
     font-size: 100px;
     color: black;
@@ -228,13 +228,13 @@ body {
 .web {
     width: 300px;
     height: 30px;
-    border-radius: 15px;
+    border-radius: 5px;
     display: flex;
     margin-top: 30px;
     margin-left: 111px;
-    background-color: #5562ff;
+    background-color: #ffd100;
     animation-name: opacity4;
-    animation-delay: 750ms;
+    animation-delay: 900ms;
     animation-fill-mode: forwards;
     opacity: 0;
     animation-duration: 1s;
@@ -286,20 +286,20 @@ body {
 .hire {
     width: 100px;
     height: 40px;
-    border-radius: 2px;
-    border: 2px solid #fe481c;
+    border-radius: 5px;
+    border: 2px solid #ffd100;
     color: white;
     font-family: tomy;
     font-size: 15px;
     display: flex;
-    background-color: #fe481c;
+    background-color: #ffd100;
     animation-name: opacity6;
     animation-delay: 1.2s;
     animation-fill-mode: forwards;
     opacity: 0;
     animation-duration: 1s;
     margin-left: 110px;
-    margin-top: 30px;
+    margin-top: 20px;
     align-items: center;
     padding-left: 20px;
 }
@@ -317,9 +317,9 @@ body {
 .project {
     width: 100px;
     height: 40px;
-    border-radius: 2px;
-    border: 2px solid white;
-    color: black;
+    border-radius: 5px;
+    border: 1px solid #ffd100;
+    color: #ffd100;
     font-family: tomy;
     font-size: 15px;
     display: flex;
@@ -368,7 +368,7 @@ body {
     }
 }
 
-.clients {
+/* .clients {
     animation-name: opacity9;
     animation-delay: 1.5s;
     animation-fill-mode: forwards;
@@ -403,16 +403,25 @@ body {
     display: flex;
     margin-left: 111px;
     margin-top: -27px;
+} */
+
+.orange {
+    margin-top: -80px;
 }
 
 .done {
+    width: 120px;
+    height: 50px;
+    background-color: #ffd100;
+    border-radius: 5px;
     animation-name: opacity10;
     animation-delay: 1.6s;
     animation-fill-mode: forwards;
     opacity: 0;
     animation-duration: 1s;
-    margin-top: -70px;
+    margin-top: 100px;
     margin-left: 108px;
+    display: flex;
 }
 
 @keyframes opacity10 {
@@ -427,20 +436,20 @@ body {
 
 .num2 {
     font-size: 24px;
-    color: black;
+    color: white;
     font-family: tomy;
-    display: flex;
-    margin-left: 111px;
-    margin-top: -50px;
+    /* display: flex; */
+    margin-left: 53px;
+    margin-top: 2px;
 }
 
 #done {
-    font-size: 12px;
-    color: black;
+    font-size: 13px;
+    color: white;
     font-family: tomy;
-    display: flex;
-    margin-left: 111px;
-    margin-top: -25px;
+    /* display: flex; */
+    margin-left: -46px;
+    margin-top: 27px;
 }
 
 /* .contacts {
@@ -454,13 +463,19 @@ body {
 } */
 
 .contacts {
+    width: 220px;
+    height: 48px;
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid #ffd100;
     animation-name: opacity10;
     animation-delay: 1.6s;
     animation-fill-mode: forwards;
     opacity: 0;
     animation-duration: 1s;
-    margin-top: -55px;
-    margin-left: 205px;
+    margin-top: -50px;
+    margin-left: 236px;
 }
 
 @keyframes opacity10 {
@@ -475,40 +490,61 @@ body {
 
 #contacts {
     font-size: 24px;
-    color: black;
+    color: #ffd100;
     font-family: tomy;
     display: flex;
-    margin-left: 111px;
-    margin-top: -50px;
+    margin-left: 60px;
+    margin-top: 2px;
 }
 
 .email {
-    font-size: 12px;
-    color: black;
+    font-size: 14px;
+    color: #ffd100;
     font-family: tomy;
     display: flex;
-    margin-left: 111px;
-    margin-top: -27px;
+    margin-left: -130px;
+    margin-top: 27px;
 }
 
 .foot {
-    width: 552px;
-    height: 180px;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
+    width: 349px;
+    height: 173px;
+    border-radius: 5px;
     background-color: #262626;
     margin-left: 110px;
-    margin-top: 30px;
+    margin-top: 20px;
     animation-name: opacity11;
     animation-delay: 1.8s;
     animation-fill-mode: forwards;
     opacity: 0;
     animation-duration: 1s;
-    padding-top: 10px;
-    padding-left: 64px;
+    display: flex;
 }
 
 @keyframes opacity11 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.stats {
+    color: #ffd100;
+    font-size: 24px;
+    font-family: tomy;
+    animation-name: opacity13;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+    margin-top: 27px;
+    margin-left: 50px;
+}
+
+@keyframes opacity13 {
     0% {
         opacity: 0;
     }
@@ -528,13 +564,14 @@ body {
     font-size: 12px;
     background-color: #ffd100;
     animation-name: opacity12;
-    animation-delay: 3.3s;
+    animation-delay: 2.3s;
     animation-fill-mode: forwards;
     opacity: 0;
     animation-duration: 1s;
     align-items: center;
     padding-left: 6px;
-    margin-top: -10px;
+    margin-top: 90px;
+    margin-left: -160px;
 }
 
 @keyframes opacity12 {
@@ -545,145 +582,4 @@ body {
     100% {
         opacity: 1;
     }
-}
-
-.stats {
-    color: white;
-    font-size: 24px;
-    font-family: tomy;
-    animation-name: opacity13;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-    opacity: 0;
-    animation-duration: 1s;
-}
-
-@keyframes opacity13 {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-.website {
-    display: flex;
-    margin-top: -111px;
-    margin-left: 200px;
-    font-family: tomy;
-    font-size: 14px;
-    color: white;
-    animation-name: opacity13;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-    opacity: 0;
-    animation-duration: 1s;
-}
-
-.n1 {
-    display: flex;
-    margin-top: -32px;
-    margin-left: 492px;
-    font-family: tomy;
-    font-size: 14px;
-    color: white;
-    animation-name: opacity13;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-    opacity: 0;
-    animation-duration: 1s;
-}
-
-.line1 {
-    border-top: 1px solid #383836;
-    width: 303px;
-    margin-left: 200px;
-    margin-top: 20px;
-    animation-name: opacity13;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-    opacity: 0;
-    animation-duration: 1s;
-}
-
-.graphics {
-    display: flex;
-    margin-top: -3px;
-    margin-left: 199px;
-    font-family: tomy;
-    font-size: 14px;
-    color: white;
-    animation-name: opacity13;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-    opacity: 0;
-    animation-duration: 1s;
-}
-
-.n2 {
-    display: flex;
-    margin-top: -32px;
-    margin-left: 485px;
-    font-family: tomy;
-    font-size: 14px;
-    color: white;
-    animation-name: opacity13;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-    opacity: 0;
-    animation-duration: 1s;
-}
-
-.line2 {
-    border-top: 1px solid #383836;
-    width: 303px;
-    margin-left: 200px;
-    margin-top: 20px;
-    animation-name: opacity13;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-    opacity: 0;
-    animation-duration: 1s;
-}
-
-.logo {
-    display: flex;
-    margin-top: -3px;
-    margin-left: 199px;
-    font-family: tomy;
-    font-size: 14px;
-    color: white;
-    animation-name: opacity13;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-    opacity: 0;
-    animation-duration: 1s;
-}
-
-.n3 {
-    display: flex;
-    margin-top: -32px;
-    margin-left: 487px;
-    font-family: tomy;
-    font-size: 14px;
-    color: white;
-    animation-name: opacity13;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-    opacity: 0;
-    animation-duration: 1s;
-}
-
-.line3 {
-    border-top: 1px solid #383836;
-    width: 303px;
-    margin-left: 200px;
-    margin-top: 20px;
-    animation-name: opacity13;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-    opacity: 0;
-    animation-duration: 1s;
 }
