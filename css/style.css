@@ -601,10 +601,10 @@ body {
 
 .us {
     font-family: Tomy;
-    color: #262626;
+    color: white;
     font-size: 50px;
     margin-top: 20px;
-    margin-left: 445px;
+    margin-left: 190px;
     animation-name: opacity12;
     animation-delay: 2.7s;
     animation-fill-mode: forwards;
@@ -612,12 +612,100 @@ body {
     animation-duration: 1s;
 }
 
+.phone {
+    width: 480px;
+    height: 480px;
+    margin-top: 32px;
+    margin-left: 18px;
+}
+
 .full {
     font-family: Tomy;
-    color: #262626;
+    color: white;
     font-size: 20px;
     margin-top: 90px;
-    margin-left: -505px;
+    margin-left: -400px;
+    animation-name: opacity12;
+    animation-delay: 2.8s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+#f_name {
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+    color: #262626;
+    border: 2px solid white;
+    padding-left: 10px;
+    font-family: Tomy;
+    font-size: 18px;
+    background-color: white;
+    margin-top: 120px;
+    margin-left: -52px;
+}
+
+.address {
+    font-family: Tomy;
+    color: white;
+    font-size: 20px;
+    margin-top: 190px;
+    margin-left: -516px;
+    animation-name: opacity12;
+    animation-delay: 2.8s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+#email {
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+    color: #262626;
+    border: 2px solid white;
+    padding-left: 10px;
+    font-family: Tomy;
+    font-size: 18px;
+    background-color: white;
+    margin-top: 220px;
+    margin-left: -130px;
+}
+
+.phone_no {
+    font-family: Tomy;
+    color: white;
+    font-size: 20px;
+    margin-top: 280px;
+    margin-left: -516px;
+    animation-name: opacity12;
+    animation-delay: 2.8s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+#tel {
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+    color: #262626;
+    border: 1px solid white;
+    padding-left: 10px;
+    font-family: Tomy;
+    font-size: 18px;
+    background-color: white;
+    margin-top: 310px;
+    margin-left: -60px;
+}
+
+.write {
+    font-family: Tomy;
+    color: white;
+    font-size: 20px;
+    margin-top: 400px;
+    margin-left: -300px;
     animation-name: opacity12;
     animation-delay: 2.8s;
     animation-fill-mode: forwards;
