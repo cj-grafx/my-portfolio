@@ -232,7 +232,7 @@ body {
     display: flex;
     margin-top: 30px;
     margin-left: 111px;
-    background-color: #ffd100;
+    background-color: #ded1c1;
     animation-name: opacity4;
     animation-delay: 900ms;
     animation-fill-mode: forwards;
@@ -253,7 +253,7 @@ body {
 #web {
     font-family: tomy;
     font-size: 20px;
-    color: white;
+    color: #262626;
     margin-top: 3px;
     margin-left: 35px;
 }
@@ -287,12 +287,12 @@ body {
     width: 100px;
     height: 40px;
     border-radius: 5px;
-    border: 2px solid #ffd100;
-    color: white;
+    border: 2px solid #ded1c1;
+    color: #262626;
     font-family: tomy;
     font-size: 15px;
     display: flex;
-    background-color: #ffd100;
+    background-color: #ded1c1;
     animation-name: opacity6;
     animation-delay: 1.2s;
     animation-fill-mode: forwards;
@@ -318,8 +318,8 @@ body {
     width: 100px;
     height: 40px;
     border-radius: 5px;
-    border: 1px solid #ffd100;
-    color: #ffd100;
+    border: 1px solid #ded1c1;
+    color: #ded1c1;
     font-family: tomy;
     font-size: 15px;
     display: flex;
@@ -412,7 +412,7 @@ body {
 .done {
     width: 120px;
     height: 50px;
-    background-color: #ffd100;
+    background-color: #ded1c1;
     border-radius: 5px;
     animation-name: opacity10;
     animation-delay: 1.6s;
@@ -436,7 +436,7 @@ body {
 
 .num2 {
     font-size: 24px;
-    color: white;
+    color: 262626;
     font-family: tomy;
     /* display: flex; */
     margin-left: 53px;
@@ -445,7 +445,7 @@ body {
 
 #done {
     font-size: 13px;
-    color: white;
+    color: 262626;
     font-family: tomy;
     /* display: flex; */
     margin-left: -46px;
@@ -468,7 +468,7 @@ body {
     background-color: white;
     display: flex;
     border-radius: 5px;
-    border: 1px solid #ffd100;
+    border: 1px solid #ded1c1;
     animation-name: opacity10;
     animation-delay: 1.6s;
     animation-fill-mode: forwards;
@@ -490,7 +490,7 @@ body {
 
 #contacts {
     font-size: 24px;
-    color: #ffd100;
+    color: #262626;
     font-family: tomy;
     display: flex;
     margin-left: 60px;
@@ -499,7 +499,7 @@ body {
 
 .email {
     font-size: 14px;
-    color: #ffd100;
+    color: #262626;
     font-family: tomy;
     display: flex;
     margin-left: -130px;
@@ -582,4 +582,45 @@ body {
     100% {
         opacity: 1;
     }
+}
+
+#reach {
+    width: 1146px;
+    height: 543px;
+    background-color: #ffd100;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 110px;
+    display: flex;
+    animation-name: opacity12;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.us {
+    font-family: Tomy;
+    color: #262626;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 445px;
+    animation-name: opacity12;
+    animation-delay: 2.7s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.full {
+    font-family: Tomy;
+    color: #262626;
+    font-size: 20px;
+    margin-top: 90px;
+    margin-left: -505px;
+    animation-name: opacity12;
+    animation-delay: 2.8s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-duration: 1s;
 }
